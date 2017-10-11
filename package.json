@@ -4,6 +4,7 @@
   "description": "Neekafat YouTube channel website",
   "main": "index.js",
   "dependencies": {
+    "handlebars": "^4.0.10",
     "mustache": "^2.3.0"
   },
   "devDependencies": {},

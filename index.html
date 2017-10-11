@@ -224,7 +224,7 @@
   </div>
 
   <div class="panel-group" id="accordion">
-    <div class="panel panel-default">
+    <!--<div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
@@ -293,7 +293,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -562,6 +562,28 @@
       </div>
     </div>
   </div>
+
+<script type="text/javascript">
+
+  var seasonTemplate = `
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                    <b><em>{{season}}</em></b>
+                </a>
+            </h4>
+        </div>
+    </div>`;
+
+
+  var template = Handlebars.compile(seasonTemplate);
+  var data = template({
+      season: "Season 7"
+  });
+  document.getElementById("accordion").innerHTML += data;
+
+  </script>$
 
   <br>
 
