@@ -1,0 +1,23 @@
+{
+  "name": "neekafat",
+  "version": "1.0.0",
+  "description": "Neekafat YouTube channel website",
+  "main": "index.js",
+  "dependencies": {
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCovarrubias7/Neekafat.git"
+  },
+  "author": "Brandon Willis, Jorge Covarrubias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCovarrubias7/Neekafat/issues"
+  },
+  "homepage": "https://github.com/JCovarrubias7/Neekafat#readme"
+}
