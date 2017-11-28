@@ -35,10 +35,12 @@
   opacity: 1;
   right: 0;
 }
-.panel-body{
+
+.panel-body {
 	background: #2d2d30;
 	color: white;
 }
+
 .carousel-inner img {
       -webkit-filter: grayscale(90%);
       filter: grayscale(90%); /* make all photos black and white */ 
@@ -53,9 +55,11 @@
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
   }
+
 .nav-tabs li a {
       color: #777;
 }
+
 .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
@@ -77,32 +81,42 @@
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
-  }
-.container img{
+}
+
+.container img {
 	width: 100%;
 	filter: grayscale(90%);
-	
 }
+
 .bg-3 {
       background: #2d2d30;
       color: #bdbdbd;
   }
-  .bg-3 h2 {color: #fff;}
-  .bg-3 p {font-style: italic;}
-  .list-group-item:first-child {
+  .bg-3 h2 {
+    color: #fff;
+  }
+  .bg-3 p {
+    font-style: italic;
+  }
+
+.list-group-item:first-child {
       border-top-right-radius: 0;
       border-top-left-radius: 0;
-  }
- .form-control {
+}
+
+.form-control {
       border-radius: 0;
-  }
-  textarea {
+}
+
+textarea {
       resize: none;
-  }
- .container {
+}
+
+.container {
       padding: 40px 120px;
-  }
-  .person {
+}
+
+.person {
       border: 10px solid transparent;
       margin-bottom: 25px;
       width: 80%;
@@ -112,10 +126,12 @@
   .person:hover {
       border-color: #f1f1f1;
   }
-  iframe{
+
+iframe {
 	  margin: 15px;
-  }
-  .btn {
+}
+
+.btn {
       padding: 10px 20px;
       background-color: #333;
       color: #f1f1f1;
@@ -125,13 +141,9 @@
   .btn:hover, .btn:focus {
       border: 1px solid #333;
       background-color: #fff;
-  color: #000;}
- #googleMap {
-      width: 100%;
-      height: 400px;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-  }  
+  color: #000;
+  }
+
 footer a {
       color: grey;
   }
@@ -140,25 +152,25 @@ footer a {
       text-decoration: none;
   }  
   
-  footer{
+  footer {
 	  background:url("http://images.designtrends.com/wp-content/uploads/2015/11/15044444/Dark-grey-background.jpg") no-repeat;
 	  background-size: cover;
   }
-footer p{
+  footer p {
 	color: white;
-}
+  }
+
 .btn btn-primary {
 	position: center;	
 	width: 100%;
-	
 }
-.carousel{
-	width: 100%
-	
-}
-#myCaraousel{
-	width: 100%
 
+.carousel {
+	width: 100%	
+}
+
+#myCaraousel {
+	width: 100%
 }
 .button {
   border-radius: 4px;
@@ -197,6 +209,10 @@ footer p{
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.panel-body {
+  padding: 0px 0px 15px 0px;
 }
 
 /*Youtube Player*/
